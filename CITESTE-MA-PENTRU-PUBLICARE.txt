@@ -1,0 +1,41 @@
+CITITOR DE CĂRȚI — PUBLICARE PE GITHUB PAGES
+
+1. Descarcă arhiva ZIP și extrage-o pe calculator.
+2. În GitHub, creează un repository nou.
+3. În repository, apasă „Add file” → „Upload files”.
+4. Încarcă TOATE fișierele și folderele extrase, direct în rădăcina repository-ului.
+   Nu încărca arhiva ZIP și nu pune fișierele într-un folder suplimentar.
+   Trebuie să vezi index.html, directorul assets și fișierele manifest/service worker.
+5. Apasă „Commit changes”.
+6. Deschide „Settings” → „Pages”.
+7. La „Build and deployment”, alege „Deploy from a branch”.
+8. Selectează branch-ul main și folderul /(root), apoi apasă „Save”.
+9. După ce GitHub termină publicarea, apasă linkul afișat în pagina Pages.
+
+UTILIZARE PE TELEFON
+
+- Deschide linkul publicat în Chrome pe Android și folosește „Install app” sau
+  „Add to Home screen” din meniul browserului.
+- Pentru Google TTS sau Samsung TTS: în Setările telefonului, caută
+  „Text-to-speech output” / „Ieșire text în vorbire”, selectează motorul dorit
+  și descarcă vocea în română și/sau engleză. Reîncarcă cititorul și alege vocea
+  disponibilă în panoul „Citire cu voce”.
+- Vocile sunt oferite de sistemul telefonului. Aplicația nu folosește servicii
+  TTS plătite. Pe iPhone se folosesc vocile iOS disponibile.
+
+CĂRȚI ȘI PROGRES
+
+- Cărțile, semnele de carte, notele și progresul se salvează local, în browserul
+  dispozitivului. Fișierele nu sunt trimise către GitHub.
+- GitHub Pages nu oferă un server de conturi, așa că progresul nu se sincronizează
+  automat între telefon și PC.
+- Pentru transfer, apasă „Backup” pe dispozitivul vechi, mută fișierul JSON pe
+  dispozitivul nou, apoi apasă „Restaurare”. Păstrează backupurile într-un loc sigur.
+- Folosește același link GitHub Pages și același browser când vrei să revii la
+  biblioteca locală. Ștergerea datelor browserului poate șterge și cărțile locale.
+
+FORMATURI
+
+- PDF: pagini, navigare și citire vocală pentru textul PDF-ului. PDF-urile scanate
+  fără text nu pot fi citite vocal.
+- EPUB și MOBI: capitole, progres, semne de carte, note și citire vocală.
